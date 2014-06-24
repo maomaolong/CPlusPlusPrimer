@@ -1,12 +1,18 @@
-// Section12.cpp : ¶¨Òå¿ØÖÆÌ¨Ó¦ÓÃ³ÌĞòµÄÈë¿Úµã¡£
+ï»¿// Section12.cpp : å®šä¹‰æ§åˆ¶å°åº”ç”¨ç¨‹åºçš„å…¥å£ç‚¹ã€‚
 //
 
 #include "stdafx.h"
 #include<iostream>
+#include<memory>
+#include"Prac2.h"
 using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
 {
-	cout<<"hello world!"<<endl;
+	StrBlob blob;
+	blob.push_back("hello");
+	blob.push_back("world");
+	blob.front() = "haha";
+	blob.print();
 	getchar();
 	return 0;
 }

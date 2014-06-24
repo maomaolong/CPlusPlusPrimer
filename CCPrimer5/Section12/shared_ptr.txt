@@ -1,0 +1,27 @@
+
+#include "stdafx.h"
+#include<iostream>
+#include<memory>
+using namespace std;
+int _tmain(int argc, _TCHAR* argv[])
+{
+	auto iptr1 = make_shared<int>(4);
+	auto iptr2 = iptr1;
+	iptr1 = make_shared<int>(6);
+	auto iptr3 = iptr1;
+	auto iptr4 = iptr1;
+	
+	cout<<iptr1.use_count()<<endl;  //3
+	cout<<iptr2.use_count()<<endl;  //1
+	cout<<iptr3.use_count()<<endl;  //3
+	cout<<iptr4.use_count()<<endl;  //3
+	getchar();
+	return 0;
+}
+
+这样是不是证明引用计数是由对象保存的而不是智能指针保存的呢？
+
+书上402页这样说：我们可以认为每个shared_ptr都有一个"关联"的计数器，通常称为引用计数。
+					这个关联很重要啊！
+					是不是就说明也并不是shared_ptr保存引用计数而是与shared_ptr和实例对象都有关系的另外
+					一个东西保存？
