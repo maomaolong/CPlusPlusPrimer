@@ -30,6 +30,7 @@ private:
 };
 
 //题目是编写你自己的StrBlob类，包含const版本的front和back.这个题目有什么意义？对front和back的const进行重载有什么好处？
+//只是为了指明这个函数不改变类成员么？如下所示返回引用不还是能够间接地改变类成员？
 
 //#include "stdafx.h"
 //#include<iostream>
@@ -43,6 +44,9 @@ private:
 //	blob.push_back("world");
 //	blob.front() = "haha";
 //	blob.print();
+//
+//	auto blob2 = blob;
+//	blob2.print();
 //	getchar();
 //	return 0;
 //}

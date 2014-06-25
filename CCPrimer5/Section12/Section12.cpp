@@ -13,6 +13,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	blob.push_back("world");
 	blob.front() = "haha";
 	blob.print();
+
+	auto blob2 = blob;
+	blob2.print();
 	getchar();
 	return 0;
 }

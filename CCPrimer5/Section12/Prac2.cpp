@@ -41,6 +41,7 @@ string& StrBlob::back() const
 
 void StrBlob::print() const
 {
+	cout<<"use_count = "<<data.use_count()<<endl;;
 	auto iter = data->begin();
 	while (iter != data->end())
 	{
