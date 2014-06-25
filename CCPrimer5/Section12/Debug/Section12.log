@@ -1,17 +1,18 @@
-﻿生成启动时间为 2014/6/25 20:45:39。
+﻿生成启动时间为 2014/6/25 23:15:37。
      1>项目“D:\Program Files\GitHub\CPlusPlusPrimer\CCPrimer5\Section12\Section12.vcxproj”在节点 2 上(Build 个目标)。
      1>InitializeBuildStatus:
          正在创建“Debug\Section12.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
        ClCompile:
          所有输出均为最新。
-         D:\Program Files\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Section12.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Prac2.cpp Section12.cpp
-         Prac2.cpp
+         D:\Program Files\VS2012\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Section12.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Prac6.cpp Section12.cpp
+         Prac6.cpp
          正在生成代码...
          正在编译...
          Section12.cpp
          正在生成代码...
        Link:
          D:\Program Files\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Program Files\GitHub\CPlusPlusPrimer\CCPrimer5\Debug\Section12.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Program Files\GitHub\CPlusPlusPrimer\CCPrimer5\Debug\Section12.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Program Files\GitHub\CPlusPlusPrimer\CCPrimer5\Debug\Section12.lib" /MACHINE:X86 Debug\Prac2.obj
+         Debug\Prac6.obj
          Debug\Section12.obj
          Debug\stdafx.obj
          Section12.vcxproj -> D:\Program Files\GitHub\CPlusPlusPrimer\CCPrimer5\Debug\Section12.exe
@@ -22,4 +23,4 @@
 
 生成成功。
 
-已用时间 00:00:03.70
+已用时间 00:00:02.79

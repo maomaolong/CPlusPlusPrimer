@@ -2,20 +2,14 @@
 //
 
 #include "stdafx.h"
-#include<iostream>
-#include<memory>
-#include"Prac2.h"
-using namespace std;
+#include "Prac6.h"
 int _tmain(int argc, _TCHAR* argv[])
 {
-	StrBlob blob;
-	blob.push_back("hello");
-	blob.push_back("world");
-	blob.front() = "haha";
-	blob.print();
-
-	auto blob2 = blob;
-	blob2.print();
+	auto vec = func();
+	readFunc(vec);
+	printFunc(vec);
+	delete vec;
+	getchar();
 	getchar();
 	return 0;
 }

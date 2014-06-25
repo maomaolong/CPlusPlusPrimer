@@ -33,6 +33,9 @@
     <ClInclude Include="Prac2.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Prac6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -42,6 +45,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="Prac2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Prac6.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
