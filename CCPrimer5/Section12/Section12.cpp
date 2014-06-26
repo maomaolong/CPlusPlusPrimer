@@ -2,13 +2,14 @@
 //
 
 #include "stdafx.h"
-#include "Prac6.h"
+#include "Prac7.h"
+#include<iostream>
+using namespace std;
 int _tmain(int argc, _TCHAR* argv[])
 {
 	auto vec = func();
 	readFunc(vec);
 	printFunc(vec);
-	delete vec;
 	getchar();
 	getchar();
 	return 0;

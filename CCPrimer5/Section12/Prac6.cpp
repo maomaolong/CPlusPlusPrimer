@@ -11,7 +11,7 @@ vector<int>* func()
 void readFunc(vector<int>* vec)
 {
 	int n;
-	while (cin>>n)
+	while (cin>>n&&n!=0)
 	{
 		vec->push_back(n);
 	}
